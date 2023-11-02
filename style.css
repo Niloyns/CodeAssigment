@@ -1,0 +1,16 @@
+*{
+    font-size: 15px;
+    background-color: rgb(251, 230, 205);
+}
+
+h1{
+    font-size: 35px;
+}
+
+.comment{
+    color: green;
+}
+
+#content{
+    background-color: antiquewhite;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> CodeKaro : Assignment </h1>
+    <h3 style="color: blue;" > All the outputs printed in console also</h3>
+    <div id="content">
+        <div><h3>Assigment-2</h3></div>
+        <div>
+            <pre>
+                <code>
+                  <span class="comment">//Create an empty array.</span>
+                  let fruits = new Array();
+              
+                 <span class="comment"> //Add the fruits to the "fruits" array.</span>
+                  fruits.push("apple", "banana", "orange");
+                  fruits.shift(); <span class="comment">// Remove first index fruit.</span>
+                  fruits.push("grape");<span class="comment">// Add fruit last.</span>
+                  fruits[1] = "pear"; <span class="comment">// Update first index.</span>
+
+                console.log (fruits);//priint
+                </code>
+              </pre>
+        </div>
+        <div><h3>Assigment-2</h3></div>
+        <div>
+            <pre>
+                <code>
+                    <span class="comment">// Empty Object </span>
+                    let person ={};
+                    
+                    <span class="comment">// add some properties </span>
+                    person={
+                        name :"Niloy", 
+                        city : "Kolkata",
+                        age : "25"
+                    };
+                    
+                    delete person.age;<span class="comment"> // delete age </span>
+                    person.job="Engineer"; <span class="comment">// add object</span>
+                    person.city="San Francisco" <span class="comment">// update city</span>
+                    
+                    console.log(person); <span class="comment">//Print</span>
+                </code>
+              </pre>
+        </div>
+        <div><h3>Assigment-3</h3></div>
+        <div>
+            <pre>
+                <code>
+                    <span class="comment">//  Create an empty array</span>
+                    let cars = new Array();
+                    
+                    <span class="comment">//Add three car objects</span>
+                    cars.push( 
+                        {make:"Toyota", model:"Camry", year:2018},
+                        {make:"Mahindra", model:"Camry", year:2018},
+                        {make:"TATA", model:"Camry", year:2018}
+                    );
+                    
+                    cars.shift();<span class="comment">// Remove the first car object</span>
+                    
+                    <span class="comment">// Add a new car object</span>
+                    cars.push(
+                        {make:"Honda", model:"Civic", year:"2020"}
+                    );
+                    
+                    <span class="comment">//Update the "model" property</span>
+                    cars[1].model="Accord"; 
+                    
+                    console.log(cars);<span class="comment">//Print</span>
+                </code>
+              </pre>
+        </div>
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
